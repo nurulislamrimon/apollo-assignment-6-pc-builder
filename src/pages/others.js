@@ -1,12 +1,12 @@
 import MainLayout from "@/Layout/MainLayout";
 import React from "react";
 
-const HomePage = () => {
-  return <div>This is home</div>;
+const OthersPage = () => {
+  return <div>others</div>;
 };
 
-export default HomePage;
+export default OthersPage;
 
-HomePage.getLayout = (page) => {
+OthersPage.getLayout = (page) => {
   return <MainLayout>{page}</MainLayout>;
 };

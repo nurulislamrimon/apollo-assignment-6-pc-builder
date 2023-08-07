@@ -1,12 +1,11 @@
 import MainLayout from "@/Layout/MainLayout";
 import React from "react";
 
-const HomePage = () => {
-  return <div>This is home</div>;
+const RamPage = () => {
+  return <div>ram</div>;
 };
 
-export default HomePage;
-
-HomePage.getLayout = (page) => {
+export default RamPage;
+RamPage.getLayout = (page) => {
   return <MainLayout>{page}</MainLayout>;
 };

@@ -1,0 +1,10 @@
+.header{
+    border-bottom: 1px solid rgb(229, 229, 229);
+    display: flex;
+}
+
+.header ul li:nth-last-child(2){
+    background-color: blue;
+    color: aliceblue;
+    transition: all 2s ease;
+}

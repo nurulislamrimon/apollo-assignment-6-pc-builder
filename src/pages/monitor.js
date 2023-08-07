@@ -1,12 +1,12 @@
 import MainLayout from "@/Layout/MainLayout";
 import React from "react";
 
-const HomePage = () => {
-  return <div>This is home</div>;
+const MonitorPage = () => {
+  return <div>monitor</div>;
 };
 
-export default HomePage;
+export default MonitorPage;
 
-HomePage.getLayout = (page) => {
+MonitorPage.getLayout = (page) => {
   return <MainLayout>{page}</MainLayout>;
 };
