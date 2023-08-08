@@ -6,7 +6,7 @@
 .header ul li:nth-last-child(2) span{
     background-color: blue;
     color: aliceblue;
-    padding: 10px 5px;
+    padding: 10px;
     border-radius: 10px;
     transition: all 2s ease;
 }

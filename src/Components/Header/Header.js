@@ -9,7 +9,7 @@ const Header = () => {
   const items = [
     {
       label: "Home",
-      key: "home",
+      key: "",
     },
     {
       label: "Categories",
@@ -59,7 +59,7 @@ const Header = () => {
       <Menu
         style={{
           border: "none",
-          minWidth: "100vw",
+          minWidth: "100%",
         }}
         onClick={onClick}
         selectedKeys={[current]}

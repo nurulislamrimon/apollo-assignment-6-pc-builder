@@ -1,6 +1,6 @@
 
   {"products":[{"id":1,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Rosemarie ",
     "category": "female",
     "price": "$1,463.00",
@@ -8,7 +8,7 @@
     "rating": 1
   },
   {"id":2,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Nieves ",
     "category": "male",
     "price": "$1,944.62",
@@ -16,7 +16,7 @@
     "rating": 1
   },
   {"id":3,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Pearson ",
     "category": "male",
     "price": "$1,423.77",
@@ -24,7 +24,7 @@
     "rating": 1
   },
   {"id":4,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Louella ",
     "category": "female",
     "price": "$2,486.73",
@@ -32,7 +32,7 @@
     "rating": 1
   },
   {"id":5,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Duran ",
     "category": "male",
     "price": "$1,902.09",
@@ -40,7 +40,7 @@
     "rating": 5
   },
   {"id":6,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Anita ",
     "category": "female",
     "price": "$3,787.37",
@@ -48,7 +48,7 @@
     "rating": 1
   },
   {"id":7,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Brewer ",
     "category": "male",
     "price": "$1,555.38",
@@ -56,7 +56,7 @@
     "rating": 1
   },
   {"id":8,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Delaney ",
     "category": "male",
     "price": "$1,213.48",
@@ -64,7 +64,7 @@
     "rating": 5
   },
   {"id":9,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Morin ",
     "category": "male",
     "price": "$2,618.23",
@@ -72,7 +72,7 @@
     "rating": 1
   },
   {"id":10,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Judith ",
     "category": "female",
     "price": "$2,830.64",
@@ -80,39 +80,31 @@
     "rating": 5
   },
   {"id":11,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Blanca ",
     "category": "female",
     "price": "$2,125.53",
     "status": "PROWASTE",
     "rating": 5
   },
-  {"id":11,
-    "image": "http://placehold.it/32x32",
+  {"id":12,
+    "image": "/images/processor1.jpg",
     "productName": "Deanna ",
     "category": "female",
     "price": "$1,587.98",
     "status": "UXMOX",
     "rating": 1
   },
-  {"id":12,
-    "image": "http://placehold.it/32x32",
+  {"id":13,
+    "image": "/images/processor1.jpg",
     "productName": "Spears ",
     "category": "male",
     "price": "$3,843.74",
     "status": "APPLIDECK",
     "rating": 5
   },
-  {"id":13,
-    "image": "http://placehold.it/32x32",
-    "productName": "Woodward ",
-    "category": "male",
-    "price": "$1,895.70",
-    "status": "INVENTURE",
-    "rating": 5
-  },
   {"id":14,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Frank ",
     "category": "male",
     "price": "$3,940.66",
@@ -120,7 +112,7 @@
     "rating": 5
   },
   {"id":15,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Rachelle ",
     "category": "female",
     "price": "$1,063.44",
@@ -128,7 +120,7 @@
     "rating": 5
   },
   {"id":16,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Duffy ",
     "category": "male",
     "price": "$2,879.24",
@@ -136,11 +128,19 @@
     "rating": 5
   },
   {"id":17,
-    "image": "http://placehold.it/32x32",
+    "image": "/images/processor1.jpg",
     "productName": "Lolita ",
     "category": "female",
     "price": "$1,524.09",
     "status": "ZILLA",
     "rating": 1
+  },
+  {"id":18,
+    "image": "/images/processor1.jpg",
+    "productName": "Woodward ",
+    "category": "male",
+    "price": "$1,895.70",
+    "status": "INVENTURE",
+    "rating": 4.5
   }]
 }
