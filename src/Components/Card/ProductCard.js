@@ -2,25 +2,27 @@ import { Card, Rate } from "antd";
 import Image from "next/image";
 import React from "react";
 import style from "./ProductCard.module.css";
+import { useRouter } from "next/router";
 
 const ProductCard = ({ product }) => {
+  const router = useRouter();
   return (
-    <div>
-      <Card>
+    <div onClick={() => router.push(`/product/${product.id}`)}>
+      <Card style={{ cursor: "pointer" }}>
         <Image
           src={product?.image}
           height={200}
           width={250}
           alt={product.image}
         />
-        <h3 className={style.title}>{product.productName} </h3>
-        <h3>Category: {product.category}</h3>
-        <h3>Price: {product.productName}</h3>
-        <h3>Status: {product.status}</h3>
-        <h3>
+        <h3>{product.productName} </h3>
+        <p>Category: {product.category}</p>
+        <p>Price: {product.price}</p>
+        <p>Status: {product.status}</p>
+        <span>
           Rating: &nbsp;
           {<Rate allowHalf disabled value={product.rating} />}
-        </h3>
+        </span>
       </Card>
     </div>
   );
