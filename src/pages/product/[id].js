@@ -1,11 +1,10 @@
 import ProductCard from "@/Components/Card/ProductCard";
 import ProductDetails from "@/Components/ProductDetails/ProductDetails";
-import RelatedProducts from "@/Components/RelatedProducts";
 import MainLayout from "@/Layout/MainLayout";
 import { Row } from "antd";
 import React from "react";
 
-const ProductDetailsPage = ({ data: product }) => {
+const ProductDetailsPage = ({ data: product, relatedProducts }) => {
   return (
     <section>
       <h1
@@ -25,36 +24,52 @@ const ProductDetailsPage = ({ data: product }) => {
       >
         Related Products
       </h1>
-      <RelatedProducts category={product?.category} />
+      <Row justify="start" style={{ gap: "30px", justifyContent: "center" }}>
+        {relatedProducts?.map((product) => (
+          <ProductCard product={product} key={product?.id} />
+        ))}
+      </Row>
     </section>
   );
 };
 
 export default ProductDetailsPage;
-// Layout adding
+// ========Layout adding
 ProductDetailsPage.getLayout = (page) => {
   return <MainLayout>{page}</MainLayout>;
 };
 
-// data fetching
+// ===============data fetching
+//generate paths
 export const getStaticPaths = async () => {
   const res = await fetch("http://localhost:3000/api/api");
   const data = await res.json();
   const paths = data?.data?.map((product) => ({
     params: { id: product?.id?.toString() },
   }));
+
   return {
     paths,
     fallback: false,
   };
 };
-
+//get data
 export const getStaticProps = async ({ params }) => {
+  let relatedProducts = [];
   const res = await fetch(`http://localhost:3000/api/api/${params.id}`);
 
   const data = await res.json();
 
+  if (data?.success) {
+    const category = data?.data?.category;
+    const res = await fetch(
+      `http://localhost:3000/api/api/category/${category}`
+    );
+    const categoryData = await res.json();
+    relatedProducts = categoryData?.data;
+  }
+
   return {
-    props: { data: data.data },
+    props: { data: data?.data, relatedProducts },
   };
 };
