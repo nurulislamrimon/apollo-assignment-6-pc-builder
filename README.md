@@ -1,3 +1,3 @@
 # Pc Builder
 
-### Live preview (Link)[https://pc-builder-murex.vercel.app/]
+### Live preview (Link)[http://localhost:3000/]

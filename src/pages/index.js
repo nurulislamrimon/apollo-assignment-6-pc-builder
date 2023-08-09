@@ -3,7 +3,7 @@ import MainLayout from "@/Layout/MainLayout";
 import { Row } from "antd";
 import React from "react";
 
-const HomePage = ({ products }) => {
+const HomePage = ({ data: products }) => {
   return (
     <section>
       <h1>Featured Products</h1>
@@ -27,5 +27,5 @@ export const getStaticProps = async () => {
   const res = await fetch("http://localhost:3000/api/api");
   const data = await res.json();
 
-  return { props: { products: data.products } };
+  return { props: { data: data.data } };
 };
