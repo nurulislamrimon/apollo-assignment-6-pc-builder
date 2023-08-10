@@ -18,18 +18,28 @@ const ProductDetailsPage = ({ data: product, relatedProducts }) => {
         Product Details
       </h1>
       <ProductDetails product={product} />
-      <h1
-        style={{
-          fontSize: "20px",
-        }}
-      >
-        Related Products
-      </h1>
-      <Row justify="start" style={{ gap: "30px", justifyContent: "center" }}>
-        {relatedProducts?.map((product) => (
-          <ProductCard product={product} key={product?.id} />
-        ))}
-      </Row>
+      {relatedProducts.length > 1 && (
+        <>
+          {" "}
+          <h1
+            style={{
+              fontSize: "20px",
+            }}
+          >
+            Related Products
+          </h1>
+          <Row
+            justify="start"
+            style={{ gap: "30px", justifyContent: "center" }}
+          >
+            {relatedProducts
+              ?.filter((relatedProduct) => relatedProduct.id !== product.id)
+              ?.map((product) => (
+                <ProductCard product={product} key={product?.id} />
+              ))}
+          </Row>
+        </>
+      )}
     </section>
   );
 };

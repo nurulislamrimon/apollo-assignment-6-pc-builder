@@ -6,9 +6,13 @@ const ProductDetails = ({ product }) => {
     <div>
       <Row
         justify="space-between"
-        style={{ gap: "30px", justifyContent: "center", alignItems: "center" }}
+        style={{
+          gap: "30px",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
-        <Col>
+        <Col span={10}>
           <h1>Name: {product?.productName}</h1>
           <h3>Category: {product?.category}</h3>
           <h3>Price: {product?.price}</h3>
@@ -20,12 +24,13 @@ const ProductDetails = ({ product }) => {
             </span>
           </h3>
         </Col>
-        <Col>
+        <Col span={12}>
           <Image
             src={product?.image}
-            height="30vh"
-            width="30vw"
+            height="100%"
+            width="100%"
             alt={product?.productName}
+            style={{ objectFit: "contain" }}
           />
         </Col>
       </Row>
