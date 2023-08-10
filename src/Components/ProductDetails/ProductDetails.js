@@ -57,7 +57,7 @@ const ProductDetails = ({ product }) => {
             </h3>
           </div>
         </Col>
-        <Col span={11} style={{ height: "100%" }}>
+        <Col span={11} style={{ height: "70vh" }}>
           <AntImage
             src={product?.image}
             height="100%"
