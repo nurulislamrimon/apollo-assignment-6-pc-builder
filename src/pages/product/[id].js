@@ -17,6 +17,8 @@ const ProductDetailsPage = ({ data: product, relatedProducts }) => {
       >
         Product Details
       </h1>
+
+      {/* related products section */}
       <ProductDetails product={product} />
       {relatedProducts.length > 1 && (
         <>

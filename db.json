@@ -5,7 +5,11 @@
     "category": "Motherboard",
     "price": "$1,463.00",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"<ul><li>Built-in IntelÂ® Celeronâ¢ J1800 (2.41 GHz) Dual-Core processor GIGABYTE Ultra Durableâ¢</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>PCIe and PCI interface for wide-range expansion card selections</li></ul>",
+    "keyFeatures":[{"brand":"Gigabyte"},{"model":"B650"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"},{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   },
   {"id":2,
     "image": "/images/motherboard2.jpg",
@@ -13,7 +17,11 @@
     "category": "Motherboard",
     "price": "$1,944.62",
     "status": "In Stock",
-    "rating": 4
+    "description":"Built-in IntelÂ® Celeronâ¢ J1800 (2.41 GHz) Dual-Core processor GIGABYTE Ultra Durableâ¢ Technology Dual channel DDR3/-LUDIMM slot support Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices PCIe and PCI interface for wide-range expansion card selections",
+    "keyFeatures":[{"brand":"Gigabyte"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4
   },
   {"id":3,
     "image": "/images/motherboard3.jpg",
@@ -21,7 +29,11 @@
     "category": "Motherboard",
     "price": "$1,423.77",
     "status": "In Stock",
-    "rating": 5
+    "description":"<ul><li>Built-in IntelÂ® Celeronâ¢ J1800 (2.41 GHz) Dual-Core processor GIGABYTE Ultra Durableâ¢</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>PCIe and PCI interface for wide-range expansion card selections</li></ul>",
+    "keyFeatures":[{"brand":"Gigabyte"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 5
   },
   {"id":4,
     "image": "/images/powersupply1.jpg",
@@ -29,7 +41,11 @@
     "category": "Power Supply",
     "price": "$2,486.73",
     "status": "In Stock",
-    "rating": 4
+    "description":"Built to deliver 80 PLUS Bronze efficiency with up to 85% of it, the Smart BM2 series is available in 450W/550W/650W/750W. Constructed with a 140mm rifle bearing fan, Japanese main capacitors and other premium components, the Smart BM2 550W delivers a continuous and stable power output at 40â„ƒ",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4
   },
   {"id":5,
     "image": "/images/powersupply2.jpg",
@@ -37,7 +53,11 @@
     "category": "Power Supply",
     "price": "$1,902.09",
     "status": "In Stock",
-    "rating": 5
+    "description":"<ul><li>Built to deliver 80 PLUS Bronze efficiency with up to 85% of it, the Smart BM2 series is available in 450W/550W/650W/750W.</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>PCIe and PCI interface for wide-range expansion card selections</li></ul>",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 5
   },
   {"id":6,
     "image": "/images/powersupply3.jpg",
@@ -45,7 +65,11 @@
     "category": "Power Supply",
     "price": "$3,787.37",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"Built to deliver 80 PLUS Bronze efficiency with up to 85% of it, the Smart BM2 series is available in 450W/550W/650W/750W. Constructed with a 140mm rifle bearing fan, Japanese main capacitors and other premium components, the Smart BM2 550W delivers a continuous and stable power output at 40â„ƒ",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   },
   {"id":7,
     "image": "/images/storagedevice1.jpg",
@@ -53,7 +77,11 @@
     "category": "Storage Device",
     "price": "$1,555.38",
     "status": "In Stock",
-    "rating": 5
+    "description":"<ul><li>The Kingston 500GB NV2 M.2 2280 PCIe 4.0 x4 NVMe SSD expands the storage capacity of your desktop or notebook.</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>The enhanced read and write speeds of up to 3500 MB/s and 2100 MB/s, respectively.</li></ul>",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 5
   },
   {"id":8,
     "image": "/images/storagedevice2.jpg",
@@ -61,7 +89,11 @@
     "category": "Storage Device",
     "price": "$1,213.48",
     "status": "In Stock",
-    "rating": 3.5
+    "description":"The Kingston 500GB NV2 M.2 2280 PCIe 4.0 x4 NVMe SSD expands the storage capacity of your desktop or notebook. With a 500GB capacity, you can effortlessly store a huge amount of data and programs while enjoying the enhanced read and write speeds of up to 3500 MB/s and 2100 MB/s, respectively.",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 3.5
   },
   {"id":9,
     "image": "/images/storagedevice3.jpg",
@@ -69,7 +101,11 @@
     "category": "Storage Device",
     "price": "$2,618.23",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"<ul><li>The Kingston 500GB NV2 M.2 2280 PCIe 4.0 x4 NVMe SSD expands the storage capacity of your desktop or notebook.</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>The enhanced read and write speeds of up to 3500 MB/s and 2100 MB/s, respectively.</li></ul>",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   },
   {"id":10,
     "image": "/images/monitor1.jpg",
@@ -77,7 +113,11 @@
     "category": "Monitor",
     "price": "$2,830.64",
     "status": "In Stock",
-    "rating": 5
+    "description":"LG 32QN650-B comes with the IPS Display. At 32\" and 2560 x 1440 resolution, This LG's QHD IPS Display features realistic, accurate color and enhanced contrast, clarity and detail at wide angles. Whatever the task, get it done fast. In this monitor, it's display comes with 350 nits of brightness.",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 5
   },
   {"id":11,
     "image": "/images/monitor2.jpg",
@@ -85,7 +125,11 @@
     "category": "Monitor",
     "price": "$2,125.53",
     "status": "In Stock",
-    "rating": 5
+    "description":"<ul><li>LG 32QN650-B comes with the IPS Display.</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>In this monitor, it's display comes with 350 nits of brightness.</li></ul>",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 5
   },
   {"id":12,
     "image": "/images/monitor3.jpg",
@@ -93,7 +137,11 @@
     "category": "Monitor",
     "price": "$1,587.98",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"LG 32QN650-B comes with the IPS Display. At 32\" and 2560 x 1440 resolution, This LG's QHD IPS Display features realistic, accurate color and enhanced contrast, clarity and detail at wide angles. Whatever the task, get it done fast. In this monitor, it's display comes with 350 nits of brightness.",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   },
   {"id":13,
     "image": "/images/ram1.jpg",
@@ -101,7 +149,11 @@
     "category": "RAM",
     "price": "$3,843.74",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"<ul><li>The Netac Basic 4GB DDR4 2666MHZ Desktop RAM is a high-performance memory module that is designed to be used as the main memory in PCs.</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>The module uses gold contact fingers for better conductivity and comes with several features that improve its performance.</li></ul>",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   },
   {"id":14,
     "image": "/images/ram2.jpg",
@@ -109,7 +161,11 @@
     "category": "RAM",
     "price": "$3,940.66",
     "status": "In Stock",
-    "rating": 3.5
+    "description":"The Netac Basic 4GB DDR4 2666MHZ Desktop RAM is a high-performance memory module that is designed to be used as the main memory in PCs. This unbuffered DDR4 SDRAM DIMM operates at a high-speed of 2666MHz and has a capacity of 4GB. The module uses gold contact fingers for better conductivity and comes with several features that improve its performance.",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 3.5
   },
   {"id":15,
     "image": "/images/ram3.jpg",
@@ -117,7 +173,11 @@
     "category": "RAM",
     "price": "$1,063.44",
     "status": "In Stock",
-    "rating": 5
+    "description":"<ul><li>The Netac Basic 4GB DDR4 2666MHZ Desktop RAM is a high-performance memory module that is designed to be used as the main memory in PCs.</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>The module uses gold contact fingers for better conductivity and comes with several features that improve its performance.</li></ul>",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 5
   },
   {"id":16,
     "image": "/images/processor1.jpg",
@@ -125,7 +185,11 @@
     "category": "Processor",
     "price": "$2,879.24",
     "status": "In Stock",
-    "rating": 5
+    "description":"AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP. This processor stands with a Base Clock of 3.8GHz and a Maximum Boost Clock of 4.0GHz. It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS.",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 5
   },
   {"id":17,
     "image": "/images/processor2.jpg",
@@ -133,7 +197,11 @@
     "category": "Processor",
     "price": "$1,524.09",
     "status": "In Stock",
-    "rating": 4
+    "description":"<ul><li>AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP.</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS.</li></ul>",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4
   },
   {"id":18,
     "image": "/images/processor3.jpg",
@@ -141,7 +209,11 @@
     "category": "Processor",
     "price": "$1,895.70",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP. This processor stands with a Base Clock of 3.8GHz and a Maximum Boost Clock of 4.0GHz. It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS.",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   },
   {"id":19,
     "image": "/images/keyboard.jpg",
@@ -149,7 +221,12 @@
     "category": "Keyboard",
     "price": "$1,063.44",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"<ul><li>The latest price of Logitech K120 Usb Keyboard With Bangla Black in Bangladesh is $725.</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>You can buy the Logitech K120 Usb Keyboard With Bangla Black at best price from our website or visit any of our showrooms.</li></ul>"
+     ,
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   },
   {"id":20,
     "image": "/images/mouse.jpg",
@@ -157,7 +234,11 @@
     "category": "Mouse",
     "price": "$2,879.24",
     "status": "In Stock",
-    "rating": 5
+    "description":"The A4TECH OP-730D comes with hyper-fast scrolling for increased productivity. A nearly frictionless scroll wheel lets you fly through long documents and Web pages with a single flick. Experience smoother cursor control on virtually any surface. The contoured design gives you more support and control.",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 5
   },
   {"id":21,
     "image": "/images/gpu.jpg",
@@ -165,7 +246,11 @@
     "category": "GPU",
     "price": "$1,524.09",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"<ul><li>The AFOX Radeon RX 550 4GB GDDR5 Dual Fan Graphics Card brings energy-saving solutions of Radeon Chill</li> <li>Technology Dual channel DDR3/-LUDIMM slot support</li><li>Audio Noise Guard with High Quality Audio Capacitors All Solid Capacitors with Humidity Protection</li> <li>New Glass Fabric PCB design LAN with high ESD Protection HDMI, D-SUB ports on rear panel GIGABYTE On/Off Charge for USB devices</li> <li>It features PCI Express 3.0 bus standard. This ensures your GPU stays cool.</li></ul>",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   },
   {"id":22,
     "image": "/images/coolingfan.jpg",
@@ -173,6 +258,10 @@
     "category": "CPU Cooler",
     "price": "$1,895.70",
     "status": "In Stock",
-    "rating": 4.5
+    "description":"The Cooler Master Notepal CMC3 Laptop Cooling Pad is intended for computers up to 15 inches in size. It has an ergonomic design that allows for the optimal viewing/typing angle. This cooling pad is made of a lightweight material that is easy to store. It comes with a USB extension port.",
+    "keyFeatures":[{"brand":"brandName"},{"model":"modelName"},{"specification":"specificationDetails"},{"port":"portNo"},{"type":"typeOf"},{"resulation":"resulationAmount"},{"voltage":"voltageAmount"}],
+    "individualRating":5,
+"reviews":[{"user":"userName","comment":"usersComment"}],
+    "avarageRating": 4.5
   }]
 }

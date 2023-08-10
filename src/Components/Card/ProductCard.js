@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 
 const ProductCard = ({ product }) => {
   const router = useRouter();
+
   return (
     <div onClick={() => router.push(`/product/${product.id}`)}>
       <Card style={{ cursor: "pointer", width: "24vw" }}>
@@ -14,6 +15,7 @@ const ProductCard = ({ product }) => {
           height={200}
           width={250}
           alt={product.image}
+          style={{ objectFit: "contain" }}
         />
         <h1>
           {product?.productName?.length > 20
@@ -25,7 +27,7 @@ const ProductCard = ({ product }) => {
         <p>Status: {product.status}</p>
         <span>
           Rating: &nbsp;
-          {<Rate allowHalf disabled value={product.rating} />}
+          {<Rate allowHalf disabled value={product.individualRating} />}
         </span>
       </Card>
     </div>
