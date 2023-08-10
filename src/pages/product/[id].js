@@ -1,6 +1,7 @@
 import ProductCard from "@/Components/Card/ProductCard";
 import ProductDetails from "@/Components/ProductDetails/ProductDetails";
 import MainLayout from "@/Layout/MainLayout";
+import { apiUrl } from "@/Utils/apiUrl";
 import { Row } from "antd";
 import React from "react";
 
@@ -42,7 +43,7 @@ ProductDetailsPage.getLayout = (page) => {
 // ===============data fetching
 //generate paths
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:3000/api/api");
+  const res = await fetch(`${apiUrl}/products`);
   const data = await res.json();
   const paths = data?.data?.map((product) => ({
     params: { id: product?.id?.toString() },
@@ -56,15 +57,13 @@ export const getStaticPaths = async () => {
 //get data
 export const getStaticProps = async ({ params }) => {
   let relatedProducts = [];
-  const res = await fetch(`http://localhost:3000/api/api/${params.id}`);
+  const res = await fetch(`${apiUrl}/products/${params.id}`);
 
   const data = await res.json();
 
   if (data?.success) {
     const category = data?.data?.category;
-    const res = await fetch(
-      `http://localhost:3000/api/api/category/${category}`
-    );
+    const res = await fetch(`${apiUrl}/products/category/${category}`);
     const categoryData = await res.json();
     relatedProducts = categoryData?.data;
   }

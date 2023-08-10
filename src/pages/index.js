@@ -1,5 +1,6 @@
 import ProductCard from "@/Components/Card/ProductCard";
 import MainLayout from "@/Layout/MainLayout";
+import { apiUrl } from "@/Utils/apiUrl";
 import { Row } from "antd";
 import React from "react";
 
@@ -24,8 +25,8 @@ HomePage.getLayout = (page) => {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/api");
+  const res = await fetch(`${apiUrl}/products`);
   const data = await res.json();
 
-  return { props: { data: data.data } };
+  return { props: { data: data?.data } };
 };

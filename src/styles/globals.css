@@ -1,3 +1,7 @@
 section{
     margin: 10px;
 }
+section > h1{
+    text-align: center;
+    text-decoration: underline;
+}
