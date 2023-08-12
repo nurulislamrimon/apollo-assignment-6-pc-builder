@@ -2,28 +2,44 @@ import React, { useEffect, useState } from "react";
 import style from "./BuildPCForm.module.css";
 import EachInput from "./EachInput/EachInput";
 import { useSelector } from "react-redux";
-import { Button, Col, Row } from "antd";
+import { Button, Col, Row, notification } from "antd";
 
 const BuildPCForm = () => {
   const [isComplete, setIsComplete] = useState(false);
   const products = useSelector((state) => state.product);
+  const [api, contextHolder] = notification.useNotification();
   let totalAmount = 0;
 
+  // complete button controlle
   useEffect(() => {
     if (products.components.length === 5) {
       setIsComplete(true);
     }
   }, [products]);
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(e.target.name);
-  };
+  // calculation of total amount
   products.components.forEach((product) => {
     totalAmount += Number(product.price.replace(/\,/g, "").replace(/\$/g, ""));
   });
+  // notification controller
+  const key = "updatable";
+  const openNotification = () => {
+    api.open({
+      key,
+      message: "Congratulations!",
+      description: "You have a brand new Computer!",
+    });
+    setTimeout(() => {
+      api.open({
+        key,
+        message: `Wow! Your computer price is ${totalAmount.toFixed(2)}`,
+        description: "You should treat us🎈",
+      });
+    }, 1000);
+  };
 
   return (
-    <form onSubmit={handleSubmit} className={style.form}>
+    <form className={style.form}>
+      {contextHolder}
       <h1>Build Your Personal Computer</h1>
 
       <EachInput
@@ -71,6 +87,7 @@ const BuildPCForm = () => {
         </Col>
         <Col>
           <Button
+            onClick={openNotification}
             type="primary"
             style={{ fontSize: "large", height: "fit-content" }}
             disabled={!isComplete}

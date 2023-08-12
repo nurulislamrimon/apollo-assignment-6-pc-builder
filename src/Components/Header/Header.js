@@ -56,10 +56,15 @@ const Header = () => {
   };
   return (
     <header className={style.header}>
+      <p className={style.logo}>
+        <p>Moner</p>
+        <p>Moto</p>
+        <p>Computer</p>
+      </p>
       <Menu
         style={{
           border: "none",
-          minWidth: "100%",
+          marginLeft: "auto",
         }}
         onClick={onClick}
         selectedKeys={[current]}

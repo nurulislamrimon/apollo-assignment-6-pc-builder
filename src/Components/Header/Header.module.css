@@ -1,8 +1,26 @@
 .header{
     border-bottom: 1px solid rgb(229, 229, 229);
     display: flex;
+    align-items: center;
 }
+.logo{
+    font-size: medium;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: -webkit-linear-gradient(#d81d1d, #1619a6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+.logo p{
+    padding: 0;
+    margin: 0;
 
+}
+.logo p::first-letter{
+    font-size: x-large;
+}
 .header ul li:nth-last-child(2) span{
     background-color: blue;
     color: aliceblue;
