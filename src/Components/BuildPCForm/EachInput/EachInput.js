@@ -16,7 +16,12 @@ const EachInput = ({ title, product, field }) => {
         <Col flex="auto">
           <Col flex="auto">
             <h4>{title}</h4>
-            <p>{product?.productName || `Please choose a ${title}`}</p>
+            <p>
+              {product?.productName.length > 70
+                ? product?.productName.slice(0, 70).concat("...")
+                : product?.productName ||
+                  `Please choose a ${product?.productName}`}
+            </p>
           </Col>
         </Col>
         {product?.price && (
