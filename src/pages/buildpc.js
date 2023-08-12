@@ -1,8 +1,13 @@
+import BuildPCForm from "@/Components/BuildPCForm/BuildPCForm";
 import MainLayout from "@/Layout/MainLayout";
 import React from "react";
 
 const BuildPcPage = () => {
-  return <div>buildpc</div>;
+  return (
+    <div>
+      <BuildPCForm />
+    </div>
+  );
 };
 
 export default BuildPcPage;

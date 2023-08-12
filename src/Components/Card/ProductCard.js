@@ -8,14 +8,21 @@ const ProductCard = ({ product }) => {
   const router = useRouter();
 
   return (
-    <div onClick={() => router.push(`/product/${product.id}`)}>
+    <div
+      className={style.cardMainContainer}
+      onClick={() => router.push(`/product/${product.id}`)}
+    >
       <Card style={{ cursor: "pointer", width: "24vw" }}>
         <Image
           src={product?.image}
           height={200}
           width={250}
           alt={product.image}
-          style={{ objectFit: "contain" }}
+          style={{
+            objectFit: "contain",
+            display: "block",
+            margin: "0 auto",
+          }}
         />
         <h1>
           {product?.productName?.length > 20
