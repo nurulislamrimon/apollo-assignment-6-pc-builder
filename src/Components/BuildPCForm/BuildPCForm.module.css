@@ -1,7 +1,15 @@
 .form{
     width: 70%;
     margin: 0 auto;
+    position: relative;
 }
+.totalContainer{
+    color: brown;
+    font-size: x-large;
+    font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+
 .form h1{
     text-align: center;
 }

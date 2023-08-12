@@ -1,4 +1,4 @@
-.cardMainContainer:hover{
-box-shadow: 1px 1px 10px 1px black;
-transition: all 1s ease;
+
+.keyFeaturesElement{
+    margin: 5px 0;
 }

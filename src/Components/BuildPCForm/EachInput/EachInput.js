@@ -2,28 +2,57 @@ import React from "react";
 import { Button, Col, Row } from "antd";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { removeAComponent } from "@/Redux/Features/product.slice";
+import { useDispatch } from "react-redux";
 
-const EachInput = ({ title, field }) => {
+const EachInput = ({ title, product, field }) => {
   const router = useRouter();
+  const dispatch = useDispatch();
   return (
     <div>
       <Row
         style={{ alignItems: "center", borderBottom: "1px solid gainsboro" }}
       >
         <Col flex="auto">
-          <Col flex="auto">{/* <Image src=/> */}</Col>
           <Col flex="auto">
             <h4>{title}</h4>
-            <p>{field}</p>
+            <p>{product?.productName || `Please choose a ${title}`}</p>
           </Col>
         </Col>
-        <Col>
+        {product?.price && (
+          <Col flex="100px" style={{ fontWeight: "bold" }}>
+            {product?.price}
+          </Col>
+        )}
+        <Col style={{ display: "flex", justifyContent: "center" }}>
+          {product && (
+            <Button
+              onClick={() => dispatch(removeAComponent(product))}
+              size="large"
+              style={{ marginRight: "5px" }}
+            >
+              X
+            </Button>
+          )}
           <Button
             onClick={() => router.push(`/buildpc/${field}`)}
             size="large"
-            style={{ color: "Blue", borderColor: "blue" }}
+            style={{
+              color: "blue",
+              borderColor: !product && "blue",
+            }}
           >
-            Choose
+            {product ? (
+              <Image
+                src="/icons/repeat-solid.svg"
+                alt="icon"
+                height={18}
+                width={18}
+                style={{ paddingTop: "5px" }}
+              />
+            ) : (
+              "Choose"
+            )}
           </Button>
         </Col>
       </Row>
