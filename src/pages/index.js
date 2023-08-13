@@ -11,7 +11,7 @@ const HomePage = ({ data: products }) => {
       <CarouselComponent />
       <h1>Featured Products</h1>
       <Row justify="start" style={{ gap: "30px", justifyContent: "center" }}>
-        {products?.map((product) => (
+        {products.slice(0, 6)?.map((product) => (
           <ProductCard product={product} key={product?.id} />
         ))}
       </Row>

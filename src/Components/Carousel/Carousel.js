@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import style from "./Carousel.module.css";
 
 const CarouselComponent = () => (
-  <Carousel>
+  <Carousel autoPlay={true} infiniteLoop={true}>
     <div className={style.container}>
       <Image
         src="/carousel/carousel2.jpg"

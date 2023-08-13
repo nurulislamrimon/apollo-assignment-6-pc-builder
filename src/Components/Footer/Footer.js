@@ -1,8 +1,18 @@
 import React from "react";
-import style from "./Footer.module.css";
 
 const Footer = () => {
-  return <footer className={style.footer}>Copyright &copy; 2023</footer>;
+  return (
+    <footer
+      style={{
+        textAlign: "center",
+        padding: "20px",
+        borderTop: "1px solid gainsboro",
+        marginTop: "10px",
+      }}
+    >
+      Copyright &copy; 2023
+    </footer>
+  );
 };
 
 export default Footer;

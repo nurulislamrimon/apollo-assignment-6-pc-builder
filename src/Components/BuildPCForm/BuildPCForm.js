@@ -14,8 +14,10 @@ const BuildPCForm = () => {
   useEffect(() => {
     if (products.components.length === 5) {
       setIsComplete(true);
+    } else {
+      setIsComplete(false);
     }
-  }, [products]);
+  }, [products.components]);
   // calculation of total amount
   products.components.forEach((product) => {
     totalAmount += Number(product.price.replace(/\,/g, "").replace(/\$/g, ""));
