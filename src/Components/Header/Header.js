@@ -1,4 +1,4 @@
-import { Menu } from "antd";
+import { Col, Menu, Row } from "antd";
 import React, { useState } from "react";
 import style from "./Header.module.css";
 import { useRouter } from "next/router";
@@ -56,21 +56,28 @@ const Header = () => {
   };
   return (
     <header className={style.header}>
-      <p className={style.logo}>
-        <p>Moner</p>
-        <p>Moto</p>
-        <p>Computer</p>
-      </p>
-      <Menu
-        style={{
-          border: "none",
-          marginLeft: "auto",
-        }}
-        onClick={onClick}
-        selectedKeys={[current]}
-        mode="horizontal"
-        items={items}
-      />
+      <Row style={{ width: "100vw" }}>
+        <Col span={10}>
+          <div className={style.logo}>
+            <p>Moner</p>
+            <p>Moto</p>
+            <p>Computer</p>
+          </div>
+        </Col>
+        <Col span={10} offset={2}>
+          <Menu
+            style={{
+              border: "none",
+              marginLeft: "auto",
+              minWidth: "50vw",
+            }}
+            onClick={onClick}
+            selectedKeys={[current]}
+            mode="horizontal"
+            items={items}
+          />
+        </Col>
+      </Row>
     </header>
   );
 };

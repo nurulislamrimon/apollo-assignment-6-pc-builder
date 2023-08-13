@@ -77,14 +77,20 @@ const BuildPCForm = () => {
           (product) => product?.category === "Monitor"
         )}
       />
-      <Row style={{ alignItems: "center", justifyContent: "space-between" }}>
-        <Col>
-          {totalAmount && (
-            <h2 className={style.totalContainer}>
+      <Row
+        style={{
+          alignItems: "center",
+          justifyContent: "space-between",
+          marginTop: "10px",
+        }}
+      >
+        {totalAmount && (
+          <Col>
+            <span className={style.totalContainer}>
               Total Amount: ${totalAmount.toFixed(2)}
-            </h2>
-          )}
-        </Col>
+            </span>
+          </Col>
+        )}
         <Col>
           <Button
             onClick={openNotification}

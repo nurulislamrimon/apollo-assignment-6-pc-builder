@@ -8,7 +8,7 @@
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: -webkit-linear-gradient(#d81d1d, #1619a6);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 0;
   margin: 0;

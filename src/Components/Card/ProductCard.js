@@ -1,4 +1,4 @@
-import { Card, Rate } from "antd";
+import { Card, Col, Rate } from "antd";
 import Image from "next/image";
 import React from "react";
 import style from "./ProductCard.module.css";
@@ -8,11 +8,13 @@ const ProductCard = ({ product }) => {
   const router = useRouter();
 
   return (
-    <div
+    <Col
+      lg={{ span: 6 }}
+      md={{ span: 10 }}
       className={style.cardMainContainer}
       onClick={() => router.push(`/product/${product.id}`)}
     >
-      <Card style={{ cursor: "pointer", width: "24vw" }}>
+      <Card style={{ cursor: "pointer" }}>
         <Image
           src={product?.image}
           height={200}
@@ -37,7 +39,7 @@ const ProductCard = ({ product }) => {
           {<Rate allowHalf disabled value={product.individualRating} />}
         </span>
       </Card>
-    </div>
+    </Col>
   );
 };
 

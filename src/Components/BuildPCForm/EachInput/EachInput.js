@@ -19,8 +19,7 @@ const EachInput = ({ title, product, field }) => {
             <p>
               {product?.productName.length > 70
                 ? product?.productName.slice(0, 70).concat("...")
-                : product?.productName ||
-                  `Please choose a ${product?.productName}`}
+                : product?.productName || `Please choose a ${title}`}
             </p>
           </Col>
         </Col>
@@ -33,7 +32,6 @@ const EachInput = ({ title, product, field }) => {
           {product && (
             <Button
               onClick={() => dispatch(removeAComponent(product))}
-              size="large"
               style={{ marginRight: "5px" }}
             >
               X
@@ -41,7 +39,6 @@ const EachInput = ({ title, product, field }) => {
           )}
           <Button
             onClick={() => router.push(`/buildpc/${field}`)}
-            size="large"
             style={{
               color: "blue",
               borderColor: !product && "blue",

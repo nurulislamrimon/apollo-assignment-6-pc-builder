@@ -15,7 +15,7 @@ const ProductDetails = ({ product }) => {
           alignItems: "start",
         }}
       >
-        <Col span={12}>
+        <Col xs={{ order: 2, span: 22 }} md={{ order: 1, span: 12 }}>
           <h2 className={style.productTitle}>{product?.productName}</h2>
           <div className={style.productInfoContainer}>
             {product.keyFeatures.length && (
@@ -38,7 +38,7 @@ const ProductDetails = ({ product }) => {
               Item Rating:{" "}
               <span>
                 <Rate
-                  style={{ fontSize: "30px" }}
+                  style={{ fontSize: "25px" }}
                   allowHalf
                   disabled
                   defaultValue={product?.individualRating}
@@ -57,13 +57,13 @@ const ProductDetails = ({ product }) => {
             </h3>
           </div>
         </Col>
-        <Col span={11} style={{ height: "70vh" }}>
+        <Col xs={{ order: 1, span: 22 }} md={{ order: 2, span: 10 }}>
           <AntImage
             src={product?.image}
             height="100%"
             width="100%"
             alt={product?.productName}
-            style={{ objectFit: "contain" }}
+            style={{ objectFit: "contain", paddingTop: "50px" }}
           />
         </Col>
       </Row>

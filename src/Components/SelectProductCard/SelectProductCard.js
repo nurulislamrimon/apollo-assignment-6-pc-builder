@@ -14,8 +14,16 @@ const SelectProductCard = ({ product }) => {
     router.push("/buildpc");
   };
   return (
-    <Row style={{ alignItems: "center", borderBottom: "1px solid gainsboro" }}>
-      <Col span={6} offset={2}>
+    <Row
+      style={{
+        alignItems: "center",
+        borderBottom: "1px solid gainsboro",
+      }}
+    >
+      <Col
+        xs={{ span: 24, justifyContent: "center" }}
+        md={{ span: 6, offset: 2 }}
+      >
         <Image
           src={product?.image}
           height={200}
@@ -24,11 +32,11 @@ const SelectProductCard = ({ product }) => {
           style={{
             objectFit: "contain",
             display: "block",
-            margin: "0 auto",
+            margin: "5px auto 0 auto",
           }}
         />
       </Col>
-      <Col span={10} offset={2}>
+      <Col xs={{ span: 20 }} md={{ span: 10, offset: 2 }}>
         <h3>{product?.productName}</h3>
         <p>Status: {product.status}</p>
 
@@ -43,7 +51,7 @@ const SelectProductCard = ({ product }) => {
           Rating: &nbsp;
           {
             <Rate
-              style={{ fontSize: "20px", marginBottom: "10px" }}
+              style={{ marginBottom: "10px" }}
               allowHalf
               disabled
               value={product.individualRating}
@@ -51,7 +59,7 @@ const SelectProductCard = ({ product }) => {
           }
         </span>
       </Col>
-      <Col span={2} offset={2}>
+      <Col xs={{ span: 2 }} md={{ span: 2, offset: 2 }}>
         <h3>{product.price}</h3>
         <Button
           onClick={() => handleAddItem()}
