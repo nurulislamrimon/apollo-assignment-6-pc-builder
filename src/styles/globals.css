@@ -1,8 +1,10 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
 }
-section{
-    margin: 10px;
+section {
+    width: 98%;
 }
 section > h1{
     text-align: center;

@@ -1,4 +1,5 @@
 import ProductCard from "@/Components/Card/ProductCard";
+import CarouselComponent from "@/Components/Carousel/Carousel";
 import MainLayout from "@/Layout/MainLayout";
 import { apiUrl } from "@/Utils/apiUrl";
 import { Row } from "antd";
@@ -7,6 +8,7 @@ import React from "react";
 const HomePage = ({ data: products }) => {
   return (
     <section>
+      <CarouselComponent />
       <h1>Featured Products</h1>
       <Row justify="start" style={{ gap: "30px", justifyContent: "center" }}>
         {products?.map((product) => (
